@@ -1,7 +1,7 @@
 ﻿function data()
 return {
 	info = {
-		minorVersion = 1,
+		minorVersion = 0,
 		severityAdd = "NONE",
 		severityRemove = "WARNING",
 		name = _("mod_name"),
@@ -22,9 +22,9 @@ return {
 	},
 	options = {
 	},
-
+	
 	runFn = function (settings, modParams)
-
+	
 	end
 	}
 end
