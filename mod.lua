@@ -1,7 +1,7 @@
 ﻿function data()
 return {
 	info = {
-		minorVersion = 1,
+		minorVersion = 2,
 		severityAdd = "NONE",
 		severityRemove = "WARNING",
 		name = _("mod_name"),
@@ -13,7 +13,7 @@ return {
 		    },
 		},
 		tags = { "modwerkstatt", "deutschland", "germany", "db", "waggon", "goods", "basis", },
-		minGameVersion = 0,
+		minGameVersion = 2,
 		dependencies = { },
 		url = { "" },
 
@@ -22,9 +22,9 @@ return {
 	},
 	options = {
 	},
-
+	
 	runFn = function (settings, modParams)
-
+	
 	end
 	}
 end
