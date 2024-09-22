@@ -27,6 +27,12 @@ return {
 						name = "dg_Ni_847_rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.0131689310074, -2.9251131650199e-07, 0.48008731007576, 1, },
 					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/dg_ni_847.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/dg_Ni_847/dg_Ni_847_rad_lod0.msh",
+						name = "dg_Ni_847_rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.0131689310074, -2.9251131650199e-07, 0.48008731007576, 1, },
+					},
 				},
 				name = "RootNode",
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -50,6 +56,12 @@ return {
 						name = "dg_Ni_847_rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.0131689310074, -2.9251131650199e-07, 0.48008731007576, 1, },
 					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/dg_ni_847.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/dg_Ni_847/dg_Ni_847_rad_lod1.msh",
+						name = "dg_Ni_847_rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.0131689310074, -2.9251131650199e-07, 0.48008731007576, 1, },
+					},
 				},
 				name = "RootNode",
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -66,6 +78,12 @@ return {
 						mesh = "vehicle/waggon/modwerkstatt_basis/dg_Ni_847/dg_Ni_847_rad_lod2.msh",
 						name = "dg_Ni_847_rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.0131689310074, -2.9251131650199e-07, 0.48008731007576, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/dg_ni_847.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/dg_Ni_847/dg_Ni_847_rad_lod2.msh",
+						name = "dg_Ni_847_rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.0131689310074, -2.9251131650199e-07, 0.48008731007576, 1, },
 					},
 					{
 						materials = { "vehicle/waggon/modwerkstatt_basis/dg_ni_847.mtl", },
