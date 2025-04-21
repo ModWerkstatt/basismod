@@ -21,11 +21,11 @@ return {
 			fadeOutStartDist = 10000,
 		},
 		map_albedo = {
-			fileName = "models/vehicle/train/cakv69/ak69e_schwarz_albedo.dds",
+			fileName = "models/vehicle/train/ak69e/ak69e_schwarz_albedo.dds",
 			type = "TWOD",
 		},
 		map_cblend_dirt_rust = {
-			fileName = "models/vehicle/train/cakv69/ak69e_cblend_dirt_rust.dds",
+			fileName = "models/vehicle/train/ak69e/ak69e_cblend_dirt_rust.dds",
 			type = "TWOD",
 		},
 		map_dirt = {
@@ -38,11 +38,11 @@ return {
 			type = "TWOD",
 		},
 		map_metal_gloss_ao = {
-			fileName = "models/vehicle/train/cakv69/ak69e_metal_gloss_ao.dds",
+			fileName = "models/vehicle/train/ak69e/ak69e_metal_gloss_ao.dds",
 			type = "TWOD",
 		},
 		map_normal = {
-			fileName = "models/vehicle/train/cakv69/ak69e_normal.dds",
+			fileName = "models/vehicle/train/ak69e/ak69e_normal.dds",
 			redGreen = true,
 			type = "TWOD",
 		},
