@@ -1,7 +1,11 @@
 function data()
 return {
+	__version = "",
 	order = 0,
 	params = {
+		albedo_scale = {
+			albedoScale = { 1, 1, 1, },
+		},
 		color_blend = {
 			albedoScales = { 1.1200000047684, },
 			colors = {
@@ -11,9 +15,11 @@ return {
 		dirt_rust = {
 			age = 0,
 			dirtColor = { 0.18039214611053, 0.12624797224998, 0.069327175617218, },
+			dirtFactor = 0,
 			dirtOpacity = 0.33000001311302,
 			dirtScale = 16,
 			rustColor = { 0.47843134403229, 0.22977018356323, 0.08255285769701, },
+			rustFactor = 0,
 			rustOpacity = 0.46000000834465,
 			rustScale = 1.6730800867081,
 		},
