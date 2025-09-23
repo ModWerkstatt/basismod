@@ -1,0 +1,88 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.3665595054626, 1.3060908317566, 1.0772606134415, },
+		bbMin = { -2.3665595054626, -1.3060908317566, -1.5340707302094, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.3665595054626, 1.3060908317566, 1.3056657314301, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/dg_goerlitz3_leicht/beweglich.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/dg_goerlitz3_leicht/goerlitz3_leicht_lod0.msh",
+						name = "goerlitz3_leicht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/dg_goerlitz3_leicht/beweglich.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/dg_goerlitz3_leicht/goerlitz3_leicht_rad_lod0.msh",
+						name = "goerlitz3_leicht_rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.7367997467518e-05, -9.2864456746611e-07, -1.0017874240875, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 79.792930603027,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/dg_goerlitz3_leicht/beweglich.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/dg_goerlitz3_leicht/goerlitz3_leicht_lod1.msh",
+						name = "goerlitz3_leicht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/dg_goerlitz3_leicht/beweglich.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/dg_goerlitz3_leicht/goerlitz3_leicht_rad_lod1.msh",
+						name = "goerlitz3_leicht_rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.7367997467518e-05, -9.2864456746611e-07, -1.0017874240875, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 79.792930603027,
+			visibleTo = 239.37878417969,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/dg_goerlitz3_leicht/beweglich.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/dg_goerlitz3_leicht/goerlitz3_leicht_lod2.msh",
+						name = "goerlitz3_leicht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/dg_goerlitz3_leicht/beweglich.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/dg_goerlitz3_leicht/goerlitz3_leicht_rad_lod2.msh",
+						name = "goerlitz3_leicht_rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.7367997467518e-05, -9.2864456746611e-07, -1.0017874240875, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 239.37878417969,
+			visibleTo = 718.13635253906,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end
