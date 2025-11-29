@@ -50,8 +50,8 @@ return {
 					gain = soundeffectsutil.sampleCurve({ { 0.0, 0.00 }, {0.5, 0.5},  { 0.8, 3.0 }, { 0.9, 4.0 } }, input.speed01),
 					pitch = soundeffectsutil.sampleCurve({ { 0.0, 0.8 }, { 0.041, 0.8 }, { 0.075, 0.8 }, { 1.0, 0.8 } }, input.speed01)
 				},
-				soundeffectsutil.squeal(input.speed, input.sideForce, input.maxSideForce),
-				soundeffectsutil.brake(input.speed01, input.brakeDecel, 1.6)
+				soundeffectsutil.squeal(input.speed, input.sideForce, 0.7),
+				soundeffectsutil.brake(input.speed, input.brakeDecel, 2.5)
 			},
 			events = 
 			{
