@@ -39,7 +39,7 @@ return {
 			light_receiver = {
 				fragmentProperties = {
 					{
-						isLegacyMaterial = true,
+						isLegacyMaterial = false,
 						lightMask = 2,
 					},
 				},

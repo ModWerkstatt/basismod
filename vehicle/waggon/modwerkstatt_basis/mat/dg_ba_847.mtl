@@ -1,19 +1,19 @@
 function data()
-return { 
+return {
 		__version = "",
 		order = 0,
-		params = { 
-			light_receiver = { 
+		params = {
+			light_receiver = {
 				fragmentProperties = {
-					{ 
-						isLegacyMaterial = true,
+					{
+						isLegacyMaterial = false,
 						lightMask = 2,
 					},
 				},
 			},
-			map_albedo = { 
-				fragmentSamplers = { 
-					albedoTex = { 
+			map_albedo = {
+				fragmentSamplers = {
+					albedoTex = {
 						fileName = "tex/dg_ni_847_albedo.dds",
 						type = "TWOD",
 						wrapS = "REPEAT",
@@ -21,9 +21,9 @@ return {
 					},
 				},
 			},
-			map_metal_gloss_ao = { 
-				fragmentSamplers = { 
-					metalGlossAoTex = { 
+			map_metal_gloss_ao = {
+				fragmentSamplers = {
+					metalGlossAoTex = {
 						fileName = "tex/dg_ni_847_mga.dds",
 						type = "TWOD",
 						wrapS = "REPEAT",
@@ -31,9 +31,9 @@ return {
 					},
 				},
 			},
-			map_normal = { 
-				fragmentSamplers = { 
-					normalTex = { 
+			map_normal = {
+				fragmentSamplers = {
+					normalTex = {
 						fileName = "tex/dg_ni_847_nrml.dds",
 						redGreen = true,
 						type = "TWOD",
@@ -42,16 +42,16 @@ return {
 					},
 				},
 			},
-			texcoord_scale = { 
+			texcoord_scale = {
 				fragmentProperties = {
-					{ 
+					{
 						texCoordScale = 1,
 					},
 				},
 			},
-			two_sided = { 
+			two_sided = {
 				fragmentProperties = {
-					{ 
+					{
 						flipNormal = false,
 					},
 				},
