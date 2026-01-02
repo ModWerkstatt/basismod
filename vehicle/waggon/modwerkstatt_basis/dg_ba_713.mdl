@@ -1,0 +1,109 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 1.67999994754791259765625, 1.427999973297119140625, 0.980000019073486328125, },
+			bbMin = { -1.67999994754791259765625, -1.427999973297119140625, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 10.94999980926513671875, 1.427999973297119140625, 1, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_713.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod0.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5099999904632568359375, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_713.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod0.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_713.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod0.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5099999904632568359375, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_713.mtl", },
+							mesh = "msh/dg_ba_713_lod0.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_713.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod1.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5099999904632568359375, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_713.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod1.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_713.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod1.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5099999904632568359375, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_713.mtl", },
+							mesh = "msh/dg_ba_713_lod1.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 400,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_713.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5099999904632568359375, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_713.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_713.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5099999904632568359375, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_713.mtl", },
+							mesh = "msh/dg_ba_713_lod2.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 400,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

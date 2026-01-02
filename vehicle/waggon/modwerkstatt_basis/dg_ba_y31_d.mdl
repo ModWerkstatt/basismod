@@ -1,0 +1,94 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 10.979999542236328125, 1.427999973297119140625, 3.980000019073486328125, },
+			bbMin = { -10.979999542236328125, -1.427999973297119140625, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 10.94999980926513671875, 1.427999973297119140625, 1, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y31.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_720mm_scheibenbremse_lod0.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.3919999897480010986328125, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y31.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_720mm_scheibenbremse_lod0.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.3919999897480010986328125, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y31.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_ba_y31_lod0.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384185791015625, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y31.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_720mm_scheibenbremse_lod1.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.3919999897480010986328125, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y31.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_720mm_scheibenbremse_lod1.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.3919999897480010986328125, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y31.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_ba_y31_lod1.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384185791015625, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 400,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y31.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_720mm_scheibenbremse_lod2.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.3919999897480010986328125, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y31.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_720mm_scheibenbremse_lod2.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.3919999897480010986328125, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y31.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_ba_y31_lod2.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384185791015625, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 400,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

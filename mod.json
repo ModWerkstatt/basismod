@@ -1,0 +1,17 @@
+{
+    "dependencies": null,
+    "incompatibilities": null,
+    "modId": "modwerkstatt_basismod",
+    "options": null,
+    "params": null,
+    "postRunScript": {
+        "fileName": ""
+    },
+    "preRunScript": {
+        "fileName": ""
+    },
+    "revision": 1,
+    "runScript": {
+        "fileName": ""
+    }
+}

@@ -1,0 +1,101 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 1.72409689426422119140625, 1.1583807468414306640625, 1.013744354248046875, },
+			bbMin = { -1.72409689426422119140625, -1.1583807468414306640625, -0.033212244510650634765625, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 1.72409689426422119140625, 1.1583807468414306640625, 0.5234782695770263671875, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_MdnSg_661.mtl", },
+							mesh = "msh/dg_MdnSg_661_achse_lod0.msh",
+							name = "dg_MdnSg_661_achse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109405517578125, 0.00000026092408234035247005522251129150390625, 0.490266144275665283203125, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_MdnSg_661.mtl", },
+							mesh = "msh/dg_MdnSg_661_lod0.msh",
+							name = "dg_MdnSg_661",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 21.6624813079833984375,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_MdnSg_661.mtl", },
+							mesh = "msh/dg_MdnSg_661_achse_lod1.msh",
+							name = "dg_MdnSg_661_achse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109405517578125, 0.00000026092408234035247005522251129150390625, 0.490266144275665283203125, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_MdnSg_661.mtl", },
+							mesh = "msh/dg_MdnSg_661_lod1.msh",
+							name = "dg_MdnSg_661",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 21.6624813079833984375,
+				visibleTo = 64.9874420166015625,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_MdnSg_661.mtl", },
+							mesh = "msh/dg_MdnSg_661_achse_lod2.msh",
+							name = "dg_MdnSg_661_achse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109405517578125, 0.00000026092408234035247005522251129150390625, 0.490266144275665283203125, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_MdnSg_661.mtl", },
+							mesh = "msh/dg_MdnSg_661_lod2.msh",
+							name = "dg_MdnSg_661",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 64.9874420166015625,
+				visibleTo = 194.9623260498046875,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_MdnSg_661.mtl", },
+							mesh = "msh/dg_MdnSg_661_achse_lod3.msh",
+							name = "dg_MdnSg_661_achse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109405517578125, 0.00000026092408234035247005522251129150390625, 0.490266144275665283203125, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 194.9623260498046875,
+				visibleTo = 584.886962890625,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

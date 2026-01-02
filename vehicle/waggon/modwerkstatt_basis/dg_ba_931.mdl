@@ -1,0 +1,103 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 1.87999999523162841796875, 1.427999973297119140625, 0.980000019073486328125, },
+			bbMin = { -1.87999999523162841796875, -1.427999973297119140625, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 10.94999980926513671875, 1.427999973297119140625, 1, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/dg_ba_931.mtl", },
+							mesh = "msh/dg_achse_920mm_lod0.msh",
+							name = "dg_achse_920mm_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "mat/dg_ba_931.mtl", },
+							mesh = "msh/dg_achse_920mm_lod0.msh",
+							name = "dg_achse_920mm_lod0_2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "mat/dg_ba_931.mtl", },
+							mesh = "msh/dg_ba_931_lod0.msh",
+							name = "dg_ba_931_lod0_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/dg_ba_931.mtl", },
+							mesh = "msh/dg_achse_920mm_lod1.msh",
+							name = "dg_achse_920mm_lod1_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "mat/dg_ba_931.mtl", },
+							mesh = "msh/dg_achse_920mm_lod1.msh",
+							name = "dg_achse_920mm_lod1_2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "mat/dg_ba_931.mtl", },
+							mesh = "msh/dg_ba_931_lod1.msh",
+							name = "dg_ba_931_lod1_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 400,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/dg_ba_931.mtl", },
+							mesh = "msh/dg_achse_920mm_lod2.msh",
+							name = "dg_achse_920mm_lod2_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "mat/dg_ba_931.mtl", },
+							mesh = "msh/dg_achse_920mm_lod2.msh",
+							name = "dg_achse_920mm_lod2_2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.4516200125217437744140625, 1, },
+						},
+						{ 
+							materials = { "mat/dg_ba_931.mtl", },
+							mesh = "msh/dg_ba_931_lod2.msh",
+							name = "dg_ba_931_lod2_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 400,
+				visibleTo = 1200,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end
