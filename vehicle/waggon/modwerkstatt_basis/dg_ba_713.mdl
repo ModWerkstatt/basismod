@@ -17,23 +17,26 @@ return {
 					children = {
 						{
 							materials = { "mat/dg_ba_713.mtl", },
+							mesh = "msh/dg_ba_713_lod0.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/dg_ba_713.mtl", },
 							mesh = "msh/dg_achse_920mm_lod0.msh",
+                            name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5099999904632568359375, 0, 0.4516200125217437744140625, 1, },
 						},
 						{
 							materials = { "mat/dg_ba_713.mtl", },
 							mesh = "msh/dg_achse_920mm_lod0.msh",
+                            name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4516200125217437744140625, 1, },
 						},
 						{
 							materials = { "mat/dg_ba_713.mtl", },
 							mesh = "msh/dg_achse_920mm_lod0.msh",
+                            name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5099999904632568359375, 0, 0.4516200125217437744140625, 1, },
-						},
-						{
-							materials = { "mat/dg_ba_713.mtl", },
-							mesh = "msh/dg_ba_713_lod0.msh",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
@@ -47,23 +50,26 @@ return {
 					children = {
 						{
 							materials = { "mat/dg_ba_713.mtl", },
+							mesh = "msh/dg_ba_713_lod1.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/dg_ba_713.mtl", },
 							mesh = "msh/dg_achse_920mm_lod1.msh",
+                            name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5099999904632568359375, 0, 0.4516200125217437744140625, 1, },
 						},
 						{
 							materials = { "mat/dg_ba_713.mtl", },
 							mesh = "msh/dg_achse_920mm_lod1.msh",
+                            name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4516200125217437744140625, 1, },
 						},
 						{
 							materials = { "mat/dg_ba_713.mtl", },
 							mesh = "msh/dg_achse_920mm_lod1.msh",
+                            name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5099999904632568359375, 0, 0.4516200125217437744140625, 1, },
-						},
-						{
-							materials = { "mat/dg_ba_713.mtl", },
-							mesh = "msh/dg_ba_713_lod1.msh",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
@@ -77,23 +83,26 @@ return {
 					children = {
 						{
 							materials = { "mat/dg_ba_713.mtl", },
+							mesh = "msh/dg_ba_713_lod2.msh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/dg_ba_713.mtl", },
 							mesh = "msh/dg_achse_920mm_lod2.msh",
+                            name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5099999904632568359375, 0, 0.4516200125217437744140625, 1, },
 						},
 						{
 							materials = { "mat/dg_ba_713.mtl", },
 							mesh = "msh/dg_achse_920mm_lod2.msh",
+                            name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4516200125217437744140625, 1, },
 						},
 						{
 							materials = { "mat/dg_ba_713.mtl", },
 							mesh = "msh/dg_achse_920mm_lod2.msh",
+                            name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5099999904632568359375, 0, 0.4516200125217437744140625, 1, },
-						},
-						{
-							materials = { "mat/dg_ba_713.mtl", },
-							mesh = "msh/dg_ba_713_lod2.msh",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
