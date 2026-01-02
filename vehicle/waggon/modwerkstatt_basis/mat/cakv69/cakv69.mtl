@@ -1,69 +1,109 @@
 function data()
 return {
-	params = {
-		color_blend = {
-			albedoScale = 1.2864012509339,
-		},
-		dirt_rust = {
-			dirtColor = {
-				0.2156862745098, 0.15686274509804, 0.11372549019608,
+		__version = "",
+		order = 0,
+		params = {
+			color_blend = {
+				fragmentProperties = {
+					{
+						albedoScales = { 0, 0, },
+						colors = {
+							{ 0, 0, 0, },
+							{ -1, -1, -1, },
+						},
+					},
+				},
 			},
-			dirtOpacity = 0.1,
-			dirtScale = 8,
-			rustColor = {
-				0.24313725490196, 0.17254901960784, 0.14117647058824,
+			dirt_rust = {
+				fragmentProperties = {
+					{
+						dirtColor = { 0.427450954914093017578125, 0.427450954914093017578125, 0.427450954914093017578125, },
+						dirtFactor = 0,
+						dirtOpacity = 0.2899999916553497314453125,
+						dirtScale = 1,
+						rustColor = { 0.56862747669219970703125, 0.3996489346027374267578125, 0.2631295621395111083984375, },
+						rustFactor = 0,
+						rustOpacity = 0.12999999523162841796875,
+						rustScale = 1,
+					},
+				},
 			},
-			rustOpacity = 0.5,
-			rustScale = 2.87604256543,
+			light_receiver = {
+				fragmentProperties = {
+					{
+						isLegacyMaterial = false,
+						lightMask = 2,
+					},
+				},
+			},
+			map_albedo = {
+				fragmentSamplers = {
+					albedoTex = {
+						fileName = "tex/cakv69_albedo.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_cblend_dirt_rust = {
+				fragmentSamplers = {
+					cblendDirtRustTex = {
+						fileName = "tex/cakv69_cblend_dirt_rust.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_dirt = {
+				fragmentSamplers = {
+					dirtTex = {
+						fileName = "::/vehicle/shared/mat/tex/dirt_albedo.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_dirt_normal = {
+				fragmentSamplers = {
+					dirtNormalTex = {
+						fileName = "::/vehicle/shared/mat/tex/dirt_normal.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+			map_metal_gloss_ao = {
+				fragmentSamplers = {
+					metalGlossAoTex = {
+						fileName = "tex/cakv69_metal_gloss_ao.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_normal = {
+				fragmentSamplers = {
+					normalTex = {
+						fileName = "tex/cakv69_normal.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+			map_rust = {
+				fragmentSamplers = {
+					rustTex = {
+						fileName = "::/vehicle/shared/mat/tex/rust_albedo.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_rust_normal = {
+				fragmentSamplers = {
+					rustNormalTex = {
+						fileName = "::/vehicle/shared/mat/tex/rust_normal.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
 		},
-		fade_out_range = {
-			fadeOutEndDist = 20000,
-			fadeOutStartDist = 10000,
-		},
-		map_albedo = {
-			fileName = "models/vehicle/train/cakv69/cakv69_albedo.dds",
-			type = "TWOD",
-		},
-		map_cblend_dirt_rust = {
-			fileName = "models/vehicle/train/cakv69/cakv69_cblend_dirt_rust.dds",
-			type = "TWOD",
-		},
-		map_dirt = {
-			fileName = "models/vehicle/dirt_albedo.dds",
-			type = "TWOD",
-		},
-		map_dirt_normal = {
-			fileName = "models/vehicle/dirt_normal.dds",
-			redGreen = true,
-			type = "TWOD",
-		},
-		map_metal_gloss_ao = {
-			fileName = "models/vehicle/train/cakv69/cakv69_metal_gloss_ao.dds",
-			type = "TWOD",
-		},
-		map_normal = {
-			fileName = "models/vehicle/train/cakv69/cakv69_normal.dds",
-			redGreen = true,
-			type = "TWOD",
-		},
-		map_rust = {
-			fileName = "models/vehicle/rust_albedo.dds",
-			type = "TWOD",
-		},
-		map_rust_normal = {
-			fileName = "models/vehicle/rust_normal.dds",
-			redGreen = true,
-			type = "TWOD",
-		},
-		polygon_offset = {
-			factor = 0,
-			units = 0,
-		},
-		two_sided = {
-			flipNormal = false,
-			twoSided = false,
-		},
-	},
-	type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
-}
+		type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
+	}
 end
