@@ -1,10 +1,22 @@
 {
+    "name": "ModWerkstatt Base Mod",
+    "summary": "The mod contains a lot of parts often used in different mods",
+    "description": "The base mod is required for many mods from ModWerkstatt. It contains bogies, rear end boards, and couplings. Additional functions are being added every now and then.",
+    "localization" : {
+        "de": {
+            "name": "ModWerkstatt Basis Mod",
+            "summary": "Der Mod enthält verschiedene Teile, die in vielen anderen Mods verwendet werden.",
+            "description": "Der Basismod wird benötigt für viele Mods der ModWerkstatt.\n\nEr enthält Drehgestelle, Zugschlußtafeln und Kupplungen\n\nWeitere Funktionen werden immer wieder hinzugefügt."
+        }
+    },
     "authors": [
         {
-            "name": "",
+            "name": "ModWerkstatt",
             "role": "CREATOR"
         }
     ],
-    "name": "",
-    "url": ""
+    "tags": [
+        "Misc"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/basismod"
 }
