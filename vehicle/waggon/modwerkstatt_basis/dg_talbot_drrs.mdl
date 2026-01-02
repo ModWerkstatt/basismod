@@ -1,29 +1,29 @@
 function data()
-return { 
-		boundingInfo = { 
+return {
+		boundingInfo = {
 			bbMax = { 1.56108224391937255859375, 1.19431722164154052734375, 1.04754316806793212890625, },
 			bbMin = { -1.56108224391937255859375, -1.19431722164154052734375, 0.166634023189544677734375, },
 		},
-		collider = { 
-			params = { 
+		collider = {
+			params = {
 				halfExtents = { 1.56108224391937255859375, 1.19431722164154052734375, 0.4404545724391937255859375, },
 			},
 			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			type = "BOX",
 		},
 		lods = {
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
-							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_tlbot_drrs.mtl", },
-							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/talbot_drrs_lod0.msh",
+						{
+							materials = { "mat/dg_talbot_drrs.mtl", },
+							mesh = "msh/talbot_drrs_lod0.msh",
 							name = "talbot_drrs",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_tlbot_drrs.mtl", },
-							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/talbot_bremse_lod0.msh",
+						{
+							materials = { "mat/dg_talbot_drrs.mtl", },
+							mesh = "msh/talbot_bremse_lod0.msh",
 							name = "talbot_bremse",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -34,18 +34,18 @@ return {
 				visibleFrom = 0,
 				visibleTo = 21.61521148681640625,
 			},
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
-							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_tlbot_drrs.mtl", },
-							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/talbot_drrs_lod1.msh",
+						{
+							materials = { "mat/dg_talbot_drrs.mtl", },
+							mesh = "msh/talbot_drrs_lod1.msh",
 							name = "talbot_drrs",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_tlbot_drrs.mtl", },
-							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/talbot_bremse_lod1.msh",
+						{
+							materials = { "mat/dg_talbot_drrs.mtl", },
+							mesh = "msh/talbot_bremse_lod1.msh",
 							name = "talbot_bremse",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -56,12 +56,12 @@ return {
 				visibleFrom = 21.61521148681640625,
 				visibleTo = 64.84563446044921875,
 			},
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
-							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_tlbot_drrs.mtl", },
-							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/talbot_drrs_lod2.msh",
+						{
+							materials = { "mat/dg_talbot_drrs.mtl", },
+							mesh = "msh/talbot_drrs_lod2.msh",
 							name = "talbot_drrs",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -72,12 +72,12 @@ return {
 				visibleFrom = 64.84563446044921875,
 				visibleTo = 194.5369110107421875,
 			},
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
-							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_tlbot_drrs.mtl", },
-							mesh = "/vehicle/waggon/modwerkstatt_basis/msh/talbot_drrs_lod3.msh",
+						{
+							materials = { "mat/dg_talbot_drrs.mtl", },
+							mesh = "msh/talbot_drrs_lod3.msh",
 							name = "talbot_drrs",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},

@@ -1,19 +1,19 @@
 function data()
-return { 
+return {
 		__version = "",
 		order = 0,
-		params = { 
-			alpha_test = { 
+		params = {
+			alpha_test = {
 				fragmentProperties = {
-					{ 
+					{
 						cutout = false,
 						sorted = false,
 					},
 				},
 			},
-			color_blend = { 
+			color_blend = {
 				fragmentProperties = {
-					{ 
+					{
 						albedoScales = { 0, 0, },
 						colors = {
 							{ -1, -1, -1, },
@@ -22,9 +22,9 @@ return {
 					},
 				},
 			},
-			dirt_rust = { 
+			dirt_rust = {
 				fragmentProperties = {
-					{ 
+					{
 						dirtColor = { 0.5, 0.5, 0.5, },
 						dirtOpacity = 0.5,
 						dirtScale = 1,
@@ -34,68 +34,68 @@ return {
 					},
 				},
 			},
-			light_receiver = { 
+			light_receiver = {
 				fragmentProperties = {
-					{ 
+					{
 						isLegacyMaterial = true,
 						lightMask = 2,
 					},
 				},
 			},
-			map_albedo_opacity = { 
-				fragmentSamplers = { 
-					albedoOpacityTex = { 
-						fileName = "tex/dg_tlbot_694_albedo.dds",
+			map_albedo_opacity = {
+				fragmentSamplers = {
+					albedoOpacityTex = {
+						fileName = "tex/dg_talbot_694_albedo.dds",
 						type = "TWOD",
 						wrapS = "REPEAT",
 						wrapT = "REPEAT",
 					},
 				},
 			},
-			map_cblend_dirt_rust = { 
-				fragmentSamplers = { 
-					cblendDirtRustTex = { 
-						fileName = "tex/dg_tlbot_694_dca.dds",
+			map_cblend_dirt_rust = {
+				fragmentSamplers = {
+					cblendDirtRustTex = {
+						fileName = "tex/dg_talbot_694_dca.dds",
 						type = "TWOD",
 						wrapS = "REPEAT",
 						wrapT = "REPEAT",
 					},
 				},
 			},
-			map_dirt = { 
-				fragmentSamplers = { 
-					dirtTex = { 
-						fileName = "placeholders/mat/tex/unknown_texture.dds",
+			map_dirt = {
+				fragmentSamplers = {
+					dirtTex = {
+						fileName = "::/vehicle/shared/mat/tex/dirt_albedo.dds",
 						type = "TWOD",
 						wrapS = "REPEAT",
 						wrapT = "REPEAT",
 					},
 				},
 			},
-			map_dirt_normal = { 
-				fragmentSamplers = { 
-					dirtNormalTex = { 
-						fileName = "placeholders/mat/tex/unknown_texture.dds",
+			map_dirt_normal = {
+				fragmentSamplers = {
+					dirtNormalTex = {
+						fileName = "::/vehicle/shared/mat/tex/dirt_normal.dds",
 						type = "TWOD",
 						wrapS = "REPEAT",
 						wrapT = "REPEAT",
 					},
 				},
 			},
-			map_metal_gloss_ao = { 
-				fragmentSamplers = { 
-					metalGlossAoTex = { 
-						fileName = "tex/dg_tlbot_694_mga.dds",
+			map_metal_gloss_ao = {
+				fragmentSamplers = {
+					metalGlossAoTex = {
+						fileName = "tex/dg_talbot_694_mga.dds",
 						type = "TWOD",
 						wrapS = "REPEAT",
 						wrapT = "REPEAT",
 					},
 				},
 			},
-			map_normal = { 
-				fragmentSamplers = { 
-					normalTex = { 
-						fileName = "tex/dg_tlbot_694_nrml.dds",
+			map_normal = {
+				fragmentSamplers = {
+					normalTex = {
+						fileName = "tex/dg_talbot_694_nrml.dds",
 						redGreen = true,
 						type = "TWOD",
 						wrapS = "REPEAT",
@@ -103,29 +103,29 @@ return {
 					},
 				},
 			},
-			map_rust = { 
-				fragmentSamplers = { 
-					rustTex = { 
-						fileName = "placeholders/mat/tex/unknown_texture.dds",
+			map_rust = {
+				fragmentSamplers = {
+					rustTex = {
+						fileName = "::/vehicle/shared/mat/tex/rust_albedo.dds",
 						type = "TWOD",
 						wrapS = "REPEAT",
 						wrapT = "REPEAT",
 					},
 				},
 			},
-			map_rust_normal = { 
-				fragmentSamplers = { 
-					rustNormalTex = { 
-						fileName = "placeholders/mat/tex/unknown_texture.dds",
+			map_rust_normal = {
+				fragmentSamplers = {
+					rustNormalTex = {
+						fileName = "::/vehicle/shared/mat/tex/rust_normal.dds",
 						type = "TWOD",
 						wrapS = "REPEAT",
 						wrapT = "REPEAT",
 					},
 				},
 			},
-			two_sided = { 
+			two_sided = {
 				fragmentProperties = {
-					{ 
+					{
 						flipNormal = false,
 					},
 				},

@@ -1,0 +1,131 @@
+function data()
+return {
+		boundingInfo = {
+			bbMax = { 1.80088269710540771484375, 1.1933705806732177734375, 1.028338909149169921875, },
+			bbMin = { -1.80088269710540771484375, -1.1933705806732177734375, -0.0433909595012664794921875, },
+		},
+		collider = {
+			params = {
+				halfExtents = { 1.80088269710540771484375, 1.1933705806732177734375, 0.53586494922637939453125, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/dg_talbot_694.mtl", },
+							mesh = "msh/dg_talbot_694_lod0.msh",
+							name = "dg_talbot_694",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/dg_talbot_694.mtl", },
+							mesh = "msh/dg_talbot_694_achse_lod0.msh",
+							name = "dg_talbot_694_achse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.48, 1, },
+						},
+						{
+							materials = { "mat/dg_talbot_694.mtl", },
+							mesh = "msh/dg_talbot_694_achse_lod0.msh",
+							name = "dg_talbot_694_achse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.48, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 22.3766613006591796875,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/dg_talbot_694.mtl", },
+							mesh = "msh/dg_talbot_694_lod1.msh",
+							name = "dg_talbot_694",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/dg_talbot_694.mtl", },
+							mesh = "msh/dg_talbot_694_achse_lod1.msh",
+							name = "dg_talbot_694_achse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.48, 1, },
+						},
+						{
+							materials = { "mat/dg_talbot_694.mtl", },
+							mesh = "msh/dg_talbot_694_achse_lod1.msh",
+							name = "dg_talbot_694_achse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.48, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 22.3766613006591796875,
+				visibleTo = 67.12998199462890625,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/dg_talbot_694.mtl", },
+							mesh = "msh/dg_talbot_694_lod2.msh",
+							name = "dg_talbot_694",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/dg_talbot_694.mtl", },
+							mesh = "msh/dg_talbot_694_achse_lod2.msh",
+							name = "dg_talbot_694_achse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.48, 1, },
+						},
+						{
+							materials = { "mat/dg_talbot_694.mtl", },
+							mesh = "msh/dg_talbot_694_achse_lod2.msh",
+							name = "dg_talbot_694_achse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.48, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 67.12998199462890625,
+				visibleTo = 201.38995361328125,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/dg_talbot_694.mtl", },
+							mesh = "msh/dg_talbot_694_lod3.msh",
+							name = "dg_talbot_694",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/dg_talbot_694.mtl", },
+							mesh = "msh/dg_talbot_694_achse_lod3.msh",
+							name = "dg_talbot_694_achse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.48, 1, },
+						},
+						{
+							materials = { "mat/dg_talbot_694.mtl", },
+							mesh = "msh/dg_talbot_694_achse_lod3.msh",
+							name = "dg_talbot_694_achse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.48, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 201.38995361328125,
+				visibleTo = 604.16986083984375,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

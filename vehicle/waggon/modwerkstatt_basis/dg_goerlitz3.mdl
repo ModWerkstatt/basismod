@@ -1,0 +1,125 @@
+function data()
+return {
+		boundingInfo = {
+			bbMax = { 2.15699291229248046875, 1.04308378696441650390625, 0.9334347248077392578125, },
+			bbMin = { -2.4218952655792236328125, -1.04308402538299560546875, -1.13856756687164306640625, },
+		},
+		collider = {
+			params = {
+				halfExtents = { 2.2894439697265625, 1.0430839061737060546875, 1.0360012054443359375, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/dg_goerlitz3.mtl", },
+							mesh = "msh/goerlitz3_rad_lod0.msh",
+							name = "goerlitz3_rad",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -1.53, 0, 0.38, 1, },
+						},
+						{
+							materials = { "mat/dg_goerlitz3.mtl", },
+							mesh = "msh/goerlitz3_rad_lod0.msh",
+							name = "goerlitz3_rad",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 1.53, 0, 0.38, 1, },
+						},
+						{
+							materials = { "mat/dg_goerlitz3.mtl", },
+							mesh = "msh/goerlitz_3_lod0.msh",
+							name = "goerlitz3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 22.43959808349609375,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/dg_goerlitz3.mtl", },
+							mesh = "msh/goerlitz3_rad_lod1.msh",
+							name = "goerlitz3_rad",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.53, 0, 0.38, 1, },
+						},
+						{
+							materials = { "mat/dg_goerlitz3.mtl", },
+							mesh = "msh/goerlitz3_rad_lod1.msh",
+							name = "goerlitz3_rad",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 1.53, 0, 0.38, 1, },
+						},
+						{
+							materials = { "mat/dg_goerlitz3.mtl", },
+							mesh = "msh/goerlitz_3_lod1.msh",
+							name = "goerlitz3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 22.43959808349609375,
+				visibleTo = 67.31879425048828125,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/dg_goerlitz3.mtl", },
+							mesh = "msh/goerlitz3_rad_lod2.msh",
+							name = "goerlitz3_rad",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.53, 0, 0.38, 1, },
+						},
+						{
+							materials = { "mat/dg_goerlitz3.mtl", },
+							mesh = "msh/goerlitz3_rad_lod2.msh",
+							name = "goerlitz3_rad",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 1.53, 0, 0.38, 1, },
+						},
+						{
+							materials = { "mat/dg_goerlitz3.mtl", },
+							mesh = "msh/goerlitz_3_lod2.msh",
+							name = "goerlitz3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 67.31879425048828125,
+				visibleTo = 201.9563751220703125,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/dg_goerlitz3.mtl", },
+							mesh = "msh/goerlitz3_rad_lod3.msh",
+							name = "goerlitz3_rad",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.53, 0, 0.38, 1, },
+						},
+						{
+							materials = { "mat/dg_goerlitz3.mtl", },
+							mesh = "msh/goerlitz3_rad_lod3.msh",
+							name = "goerlitz3_rad",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 1.53, 0, 0.38, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 201.9563751220703125,
+				visibleTo = 605.869140625,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end
