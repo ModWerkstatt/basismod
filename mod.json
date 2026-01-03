@@ -1,8 +1,8 @@
 {
     "dependencies": null,
     "incompatibilities": null,
-    "modId": "modwerkstatt_basis",    
-    "severityRemove" = "CRITICAL",
+    "modId": "modwerkstatt_basis",
+    "severityRemove": "CRITICAL",
     "options": null,
     "params": null,
     "postRunScript": {
