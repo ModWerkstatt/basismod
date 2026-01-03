@@ -2,7 +2,7 @@
     "dependencies": null,
     "incompatibilities": null,
     "modId": "modwerkstatt_basis",    
-    "severityRemove" = "CRITICAL",
+    "severityRemove": "CRITICAL",
     "options": null,
     "params": null,
     "postRunScript": {
